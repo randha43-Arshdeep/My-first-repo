@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
          Scanner scan = new Scanner(System.in);
-         System.out.print("Enter a word: ");
+         System.out.print("Enter a word now: ");
          String input= scan.nextLine();
          char[] arr = new char[input.length()];
          System.out.println(input);
